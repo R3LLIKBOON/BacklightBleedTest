@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="5646bad5-2b4b-4a91-941e-4b1116c12ad5" Publisher="CN=Dave" Version="1.0.0.0" />
+  <Identity Name="2775E83FA285.BacklightBleedTester" Publisher="CN=D5B750FD-4980-4BFF-88A9-676F46A1A1F4" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="5646bad5-2b4b-4a91-941e-4b1116c12ad5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>BacklightBleedTest</DisplayName>
-    <PublisherDisplayName>Dave Knapp</PublisherDisplayName>
+    <DisplayName>Backlight Bleed Tester</DisplayName>
+    <PublisherDisplayName>R3llik Boon Inc.</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,10 +15,10 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MainPage.xaml">
-      <uap:VisualElements DisplayName="BacklightBleedTest" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="BacklightBleedTest" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+      <uap:VisualElements DisplayName="Backlight Bleed Tester" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="This is just a simple app to test backlight bleed on screens." BackgroundColor="black">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="Backlight Bleed Tester">
         </uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape" />
         </uap:InitialRotationPreference>

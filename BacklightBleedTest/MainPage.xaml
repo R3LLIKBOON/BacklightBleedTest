@@ -7,21 +7,21 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loading="Page_Loading"
        >
-    <Grid Background="Black" PointerPressed="Grid_PointerPressed">
-        <Grid Background="White" Name="grdInstrustions"  Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="20">
-            <TextBlock x:Name="tbInstructions" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Set screen brightness to the brightest setting and go to a dark room." 
-                       VerticalAlignment="Center" Height="376" Width="auto" Foreground="#FF121111" SelectionHighlightColor="#FFD6BBAB" FontSize="40" TextAlignment="Center"
+    <Grid Background="Black" PointerPressed="Grid_PointerPressed" >
+        <Grid Background="White" Name="grdInstrustions"  Margin="30,20,30,20" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="20" Width="auto" Height="auto">
+            <TextBlock x:Name="tbInstructions" HorizontalAlignment="Center" Margin="0,0,0, 60" TextWrapping="Wrap" Text="Set screen brightness to the brightest setting and go to a dark room." 
+                       VerticalAlignment="Center" Height="auto" Width="auto" Foreground="#FF121111" SelectionHighlightColor="#FFD6BBAB" FontSize="30" TextAlignment="Center"
                       FontWeight="Bold" Padding="50"/>
-            <Button x:Name="btnStart"  HorizontalAlignment="Center" Margin="250,0,0,50" VerticalAlignment="Bottom" Height="auto" Width="auto" Background="Transparent" Padding="0" Click="btnStart_Click">
+            <Button x:Name="btnStart"  HorizontalAlignment="Center" Margin="150,0,0,20" VerticalAlignment="Bottom" Height="auto" Width="auto" Background="Transparent" Padding="0" Click="btnStart_Click">
                 <Button.Content>
-                    <Border CornerRadius="10" Height="70" Width="200" Margin="0" BorderBrush="Gray" BorderThickness="2" Background="Black">
+                    <Border CornerRadius="10" Padding="30,10,30, 10"  Height="65" Width="135" Margin="0" BorderBrush="Gray" BorderThickness="2" Background="Black">
                         <TextBlock Text="Start" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="33.333"  />
                     </Border>
                 </Button.Content>
             </Button>
-            <Button x:Name="btnExit" Click="btnExit_Click"  HorizontalAlignment="Center" Margin="0,0,250,50" VerticalAlignment="Bottom" Height="auto" Width="auto" Background="Transparent" Padding="0">
+            <Button x:Name="btnExit" Click="btnExit_Click"  HorizontalAlignment="Center" Margin="0,0,150,20" VerticalAlignment="Bottom" Height="auto" Width="auto" Background="Transparent" Padding="0">
                 <Button.Content>
-                    <Border CornerRadius="10" Height="70" Width="200" Margin="0" BorderBrush="Gray" BorderThickness="2" Background="Black">
+                    <Border CornerRadius="10" Padding="30,10,30, 10" Height="65" Width="135" Margin="0" BorderBrush="Gray" BorderThickness="2" Background="Black">
                         <TextBlock Text="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="33.333"  />
                     </Border>
                 </Button.Content>
